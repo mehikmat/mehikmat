@@ -124,12 +124,10 @@
    height:87px;   
 }
 
-.logo:hover {
-    transform:scale(1.05);
-    -ms-transform:scale(1.05); /* IE 9 */
-    -moz-transform:scale(1.05); /* Firefox */
-    -webkit-transform:scale(1.05); /* Safari and Chrome */
-    -o-transform:scale(1.05); /* Opera */
+.myname {
+   background-image: url("../img/hikmatdhamee.png"); 
+   width:435px;
+   height:83px;  
 }
 
 .line {
@@ -142,13 +140,6 @@ body {
     background-repeat: repeat-y repeat-x;
 } 
 
-.logo:hover {
-    transform:scale(1.2);
-    -ms-transform:scale(1.2); /* IE 9 */
-    -moz-transform:scale(1.2); /* Firefox */
-    -webkit-transform:scale(1.2); /* Safari and Chrome */
-    -o-transform:scale(1.2); /* Opera */
-}
 .ani:hover {
     transform:scale(1.05);
     -ms-transform:scale(1.05); /* IE 9 */
@@ -163,4 +154,17 @@ body {
 
 .imageLink img{
   display:block;
+}
+
+ body { 
+  font-family: 'Schoolbell', arial, serif;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+p {   
+  font-family: Times;
+  font-style: normal;
+  font-weight: normal;
+   font-size: 14px;
 }
