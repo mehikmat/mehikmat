@@ -1,154 +1,510 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<html lang="en-US">
-   <head>
-    <title>Hikmat Dhamee</title>
-     <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
-        <meta charset="utf-8">  
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <script type='text/javascript' src="./js/jquery.min.js">
-        </script>
-        <script type='text/javascript' src="./js/bootstrap.min.js">
-        </script>
-        <link rel="stylesheet" type="text/css" href="./css/index.css">
-        <link href='http://fonts.googleapis.com/css?family=Schoolbell&v1' rel='stylesheet' type='text/css'>
-   </head>
-   <body>
-      <div class="container">
-         <div class="row">
-            <div class="col-md-3">
-               <a href="#">
-                  <div id="logo_link" class="logo"></div>                  
-               </a>
+<html lang="en">
+<head>
+    <title>Hikmat's Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Hikmat Dhamee, Personal Website, Software Engineer, Nepal " />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- //Custom Theme files -->
+    <!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <!-- web-fonts -->
+    <link href='//fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <!-- //web-fonts -->
+
+    <!--Populate dynamic content at load time-->
+    <script>
+        $(document).ready(function() {
+
+            <!--Introduction-->
+            $(".name").html("Hikmat Dhamee");
+            $(".title").html("BigData Software Engineer (Hadoop/Spark/AWS)");
+
+           <!--About Section-->
+            $(".dob").html("19th Century");
+            $(".phone").html("+977-9823113881");
+            $(".my_address").html("Kathmandu, Nepal");
+            $(".email").html("me.hemant.available@gmail.com");
+            $(".email").attr("href","mailto:me.hemant.available@gmail.com");
+            $(".about_summary").html("I enjoy working on a team-oriented, software development firm nurturing new technologies and standards in the areas of big data,  cloud computing, distributed computing and programming languages where I can lead a team and deliver significant products.");
+            $(".agile-br").html("DON'T MAKE EASY THINGS EASY, MAKE DIFFICULT THINGS POSSIBLE");
+
+            <!--Experience Section-->
+            $(".expr5_date").html("Jan 2017 – *** ****");
+            $(".expr5_company").html("Deerwalk Services Pvt. Ltd.");
+            $(".expr5_title").html("Principal Software Engineer");
+            $(".expr5_desc").html("▶ Design and develop high-performance, high-availability data applications using proven big data frameworks and technologies <br/> ▶ Assist in defining the team's technical strategy and migration plans to achieve strategic goals <br/> ▶ Responsible for R&D in big data technologies to meet the quality of products");
+
+            $(".expr4_date").html("Mar 2016 – Dec 2016");
+            $(".expr4_company").html("Deerwalk Services Pvt. Ltd.");
+            $(".expr4_title").html("Senior Software Engineer");
+            $(".expr4_desc").html("▶ Responsible for analysis of current programs including performance, diagnosis and troubleshooting of problematic components, and designing solutions to problematic components <br/> ▶ Responding promptly and professionally to bug reports. <br/> ▶ Review and repair legacy code <br/> ▶ Research and recommend software tools for better productivity<br/> ▶ Research on new technologies and adopt big data applications accordingly");
+
+            $(".expr3_date").html("Mar 2014 – Mar 2016");
+            $(".expr3_company").html("Deerwalk Services Pvt. Ltd.");
+            $(".expr3_title").html("Software Engineer");
+            $(".expr3_desc").html("▶ Analyse and Design big data applications <br/> ▶ Upgrade and benchmark big data infrastructure and software <br/> ▶ Clearly and regularly communicate with management and technical support colleag <br/> ▶ Research on modern technologies and adopt accordingly");
+
+            $(".expr2_date").html("Mar 2013 – Mar 2014");
+            $(".expr2_company").html("Deerwalk Services Pvt. Ltd.");
+            $(".expr2_title").html("Associate Software Engineer");
+            $(".expr2_desc").html("▶ Develop and implement big data applications <br/> ▶ Maintain and improve the performance of existing big data applications <br/> ▶ Clearly and regularly communicate with management and technical support colleags");
+
+            $(".expr1_date").html("Jan 2013 – Mar 2013");
+            $(".expr1_company").html("Deerwalk Services Pvt. Ltd.");
+            $(".expr1_title").html("Intern");
+            $(".expr1_desc").html("▶ Learn development process <br/> ▶ Test and document software application <br/> ▶ Participate in data and software training <br/> ▶ Play with big data software systems");
+
+
+            <!--Education Section-->
+            $(".edu4_year").html("2014 - 2017");
+            $(".edu4_university").html("Pokhara University (PU)");
+            $(".edu4_degree").html("MSc.CS (2 years course)");
+            $(".edu4_desc").html("Masters of Science in Computer Science. <br/> Thesis ongoing...");
+
+            $(".edu3_year").html("2008 - 2012");
+            $(".edu3_university").html("Tribhuvan University(TU)");
+            $(".edu3_degree").html("BSc.CSIT (4 years course)");
+            $(".edu3_desc").html("Bachelor of Science in Computer Science and Information Technology. <br/> Passed with Distinction.");
+
+            $(".edu2_year").html("2006 - 2008");
+            $(".edu2_university").html("Tribhuvan University (TU)");
+            $(".edu2_degree").html("ISc. (2 years course)");
+            $(".edu2_desc").html("Intermediate of Science. <br/> Passed with First Division.");
+
+            $(".edu1_year").html("1996 - 2006");
+            $(".edu1_university").html("Rauleshwar Secondary School");
+            $(".edu1_degree").html("SLC");
+            $(".edu1_desc").html("School Leaving Certificate. <br/> Passed with First Division.");
+
+            <!--Technical Skills-->
+             $(".tech_skill1").html("Advanced Java Programming <span> 90% </span>");
+             $(".tech_skill2").html("Hadoop & Spark <span> 90% </span>");
+             $(".tech_skill3").html("MapReduce & Cascading <span> 90% </span>");
+             $(".tech_skill4").html("Big Data System Design & Dev  <span> 80% </span>");
+             $(".tech_skill5").html("Web Crawler Design & Dev  <span> 75% </span>");
+             $(".tech_skill6").html("Cloud Computing  <span> 75% </span>");
+
+             <!--Professional Skills-->
+             $(".prof_skill1").html("Communication <span> 75% </span>");
+             $(".prof_skill2").html("Code Contribution <span> 80% </span>");
+             $(".prof_skill3").html("Leadership <span> 70% </span>");
+             $(".prof_skill4").html("Confidence <span> 80% </span>");
+
+             <!--Certifications-->
+             $(".cert4_name").html("Hadoop Foundations - Level 2");
+             $(".cert4_date").html("Issued on Oct 2019");
+             $(".cert4_provider").html("Issued by IBM");
+             $(".cert4_desc").html("<a href=\"https://www.youracclaim.com/badges/9da9abe3-262e-4ec6-a081-fde38214cc1a/linked_in_profile\" target=\"_blank\">See Credentials</a>");
+
+             $(".cert3_name").html("Hadoop Foundations - Level 1");
+             $(".cert3_date").html("Issued on Sept 2019");
+             $(".cert3_provider").html("Issued by IBM");
+             $(".cert3_desc").html("<a href=\"https://www.youracclaim.com/badges/648be9ba-559f-4a3b-8bbf-fce950323956/linked_in_profile\" target=\"_blank\">See Credentials</a>");
+
+             $(".cert2_name").html("Big Data Foundations - Level 2");
+             $(".cert2_date").html("Issued on Nov 2019");
+             $(".cert2_provider").html("Issued by IBM");
+             $(".cert2_desc").html("<a href=\"https://www.youracclaim.com/badges/f7c9b5f8-f04e-44f0-81b0-17c0d524973e/linked_in_profile\" target=\"_blank\">See Credentials</a>");
+
+             $(".cert1_name").html("Big Data Foundations - Level 1");
+             $(".cert1_date").html("Issued on Oct 2019");
+             $(".cert1_provider").html("Issued by IBM");
+             $(".cert1_desc").html("<a href=\"https://www.youracclaim.com/badges/20f22edb-902b-4f01-8872-1e4162cabdfd/linked_in_profile\" target=\"_blank\">See Credentials</a>");
+
+
+            });
+    </script>
+
+</head>
+<body>
+<!-- top-nav -->
+<div class="top-nav">
+    <div class="container">
+        <div class="navbar-header logo">
+            <button id="bt" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                Menu
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="menu">
+                <ul class="nav navbar">
+                    <li><a href="#" data-toggle="modal" data-target="#experience" class="w3ls-hover"><span data-letters="Experience">Experience</span></a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#education" class="w3ls-hover"><span data-letters="Education">Education</span></a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#skill" class="w3ls-hover"><span data-letters="Skills">Skills</span></a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#certifications" class="w3ls-hover"><span data-letters="Certifications">Certifications</span></a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#about" class="w3ls-hover"><span data-letters="Contact">Contact</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/hikmatdhamee/" class="w3ls-hover" target="_blank"><span data-letters="LinkedIn">LinkedIn</span></a></li>
+                </ul>
+                <div class="clearfix"> </div>
             </div>
-            <div class="col-md-6">
-               <div class="myname">.</div>
+        </div>
+    </div>
+</div>
+<!-- //top-nav -->
+
+<!-- banner -->
+<div class="video" data-vide-bg="video/my_bg_pic">
+    <div class="container">
+        <div class="banner-text agileinfo-text">
+            <h1 class="name"></h1>
+            <h6 class="title"></h6>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.vide.min.js"></script>
+<!-- //banner -->
+<!-- modal-about -->
+<div class="modal fade modal-about" id="about" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">CONTACT ME</h4>
             </div>
-            <div class="col-md-3">.</div>
-         </div>
-         <div class="row">
-            <div class="col-md-2">.</div>
-            <div class="col-md-8">              
-               <div class="row">
-                     <div class="col-lg-12">
-                        <ul class="nav nav-tabs">
-                           <li ><a href="#A" data-toggle="tab">My Profiles</a></li>
-                           <li><a href="#B" data-toggle="tab">My Readings</a></li>
-                           <li><a href="#C" data-toggle="tab">Contact Me</a></li>
-                           <li class="active"><a href="#D" data-toggle="tab">About Me</a></li>
+            <div class="modal-body modal-spa">
+                <div class="about">
+                    <div class="col-md-4 about-left ">
+                        <img src="images/my_pic.jpg" class="img-responsive" alt=""/>
+                    </div>
+                    <div class="col-md-8 about-right wthree">
+                        <h3>Hi, I'm <span class="name"></span></h3>
+                        <h4 class="title"></h4>
+                        <ul class="address">
+                            <li>
+                                <ul class="agileits-address-text ">
+                                    <li><b>D.O.B</b></li>
+                                    <li class="dob"></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="agileits-address-text">
+                                    <li><b>PHONE </b></li>
+                                    <li class="phone"></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="agileits-address-text">
+                                    <li><b>ADDRESS </b></li>
+                                    <li class="my_address"></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="agileits-address-text">
+                                    <li><b>E-MAIL </b></li>
+                                    <li><a class="email" href=""></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="agileits-address-text">
+                                    <li><b>WEBSITE </b></li>
+                                    <li><a href="http://www.hikmatdhamee.com.np">www.hikmatdhamee.com.np</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                        <div class="tabbable">
-                           <div class="tab-content">
-                              <div class="tab-pane" id="A">
-                                 <div class="container">
-                                    <div class="row">
-                                       <div class="col-md-2">
-                                          <a href="http://github.com/mehikmat" target="_blank">
-                                             <div id="github_link" class="github"></div>
-                                          </a>
-                                       </div>
-                                       <div class="col-md-2">
-                                          <a href="https://np.linkedin.com/in/hikmatdhamee" target="_blank">
-                                             <div id="linkedin_link" class="linkedin"></div>
-                                          </a>
-                                       </div>
-                                       <div class="col-md-2">
-                                          <a href="https://plus.google.com/+HikmatDhamee" target="_blank">
-                                             <div id="googleplus_link" class="googleplus"></div>
-                                          </a>
-                                       </div>
-                                    </div>
-                                    <div class="row">
-                                       <div class="col-md-2">
-                                          <a href="http://facebook.com/hikmatdhamee" target="_blank">
-                                             <div id="facebook_link" class="facebook"></div>
-                                          </a>
-                                       </div>
-                                       <div class="col-md-2">
-                                          <a href="https://twitter.com/mehikmat" target="_blank">
-                                             <div id="twitter_link" class="twitter"></div>
-                                          </a>
-                                       </div>
-                                       <div class="col-md-2">
-                                          <a href="http://whiteboxdeveloper.blogspot.com" target="_blank">
-                                             <div id="blog_link" class="blog"></div>
-                                          </a>
-                                       </div>
-                                    </div>
-                                    <div class="row">
-                                       <div class="col-md-2">
-                                          <a href="http://www.slideshare.net/HikmatDhamee" target="_blank">
-                                             <div id="slideshare_link" class="slideshare"></div>
-                                          </a>
-                                       </div>
-                                       <div class="col-md-2">
-                                          <a href="https://coderwall.com/mehikmat" target="_blank">
-                                             <div id="coderwall_link" class="coderwall"></div>
-                                          </a>
-                                       </div>
-                                       <div class="col-md-2">
-                                          <a href="http://stackoverflow.com/users/1966595/mehikmat" target="_blank">
-                                             <div id="stackoverflow_link" class="stackoverflow">
-                                             </div>
-                                          </a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>                           
-                              <div class="tab-pane" id="B">
-                                 <p id="icon"></p>
-                                 <script>
-                                    function handleResponse(response) {
-                                    for (var i = 0; i < response.items.length; i++) {
-                                    var item = response.items[i];        
-                                    document.getElementById("icon").innerHTML += "<a href=" +          
-                                                                  item.volumeInfo.previewLink + "class=imageLink ><img class=ani src=" +  
-                                                                  item.volumeInfo.imageLinks.smallThumbnail + "></img></a>";
-                                    }
-                                    }
-                                 </script>
-                                 <script src="https://www.googleapis.com/books/v1/volumes?q=Java+Hadoop&callback=handleResponse&maxResults=40">
-                                 </script>   
-                              </div>
-                              <div class="tab-pane" id="C">                              
-                               <iframe src="https://docs.google.com/forms/d/1ZYnFFTzojg0jtHJuzcF_F5zx6Eeu6iKtppIrf9t6g8M/viewform?embedded=true" width="760" height="510" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>                           
-                              </div>
-                              <div class="tab-pane active" id="D">
-                                  <div>
-                                       <img style="float:left; margin-right:60px;" src="./img/my_img.png"></img>
-                                       <p style="padding-top:20px;font-family: Arial; background: none; font-weight: bold; font-size:12px">Hi, I am Hikmat Dhamee,<br/> { <br/>
-                                      &nbsp;&nbsp; - a native of Nepal,<br/>
-                                      &nbsp;&nbsp; - a computer science graduate,<br/>
-                                      &nbsp;&nbsp; - an open source lover<br/>
-                                      &nbsp;&nbsp; - a full time coder and hacker,<br/>
-                                      &nbsp;&nbsp; - a java rockstar,<br/>
-                                      &nbsp;&nbsp; Currently rocking  MIMD technologies<br/>
-                                       }                                                                              
-                                    </p>
-                                  </div>
-                              </div>
-                           </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="about-text agileits-w3layouts">
+                        <p class="about_summary"></p>
+                        <p class="agile-br"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //modal-about -->
+<!-- modal-skills -->
+<div class="modal fade modal-skills" id="skill" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">My Skills</h4>
+            </div>
+            <div class="modal-body modal-spa">
+                <div class="skills">
+                    <div class="col-md-6 bar-grids">
+                        <h4><span class="glyphicon glyphicon-cog"></span> Technical Skills </h4>
+                        <h6 class="tech_skill1"></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 80%">
+                            </div>
                         </div>
-                     </div>
-                     <!-- /tabbable -->      
-               </div> 
-            <div class="col-md-2">.</div>
-         </div>        
-         <br/> 
-         <div class="row">
-            <div class="col-md-12">
-               <div class="line">.</div>
+                        <h6 class="tech_skill2"></h6>
+                        <div class="progress  w3-agile">
+                            <div class="progress-bar progress-bar-striped active" style="width: 70%">
+                            </div>
+                        </div>
+                        <h6 class="tech_skill3"></h6>
+                        <div class="progress  w3-agile">
+                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
+                            </div>
+                        </div>
+                        <h6 class="tech_skill4"> </h6>
+                        <div class="progress  w3-agile">
+                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
+                            </div>
+                        </div>
+                        <h6 class="tech_skill5"></h6>
+                        <div class="progress  w3-agile">
+                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
+                            </div>
+                        </div>
+                        <h6 class="tech_skill6"></h6>
+                        <div class="progress  w3-agile">
+                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 bar-grids  w3-agile">
+                        <h4><span class="glyphicon glyphicon-briefcase"></span> Professional Skills </h4>
+                        <h6 class="prof_skill1"></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 85%">
+                            </div>
+                        </div>
+                        <h6 class="prof_skill2"></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 95%">
+                            </div>
+                        </div>
+                        <h6 class="prof_skill3">></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
+                            </div>
+                        </div>
+                        <h6 class="prof_skill4"></h6>
+                        <div class="progress prgs-w3agile-last">
+                            <div class="progress-bar progress-bar-striped active" style="width: 86%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
             </div>
-         </div>
-         <div id="footer" class="row">
-            <div class="col-md-4"><p>.<p></div>
-            <div class="col-md-6">               
-                  <p>Copyright &copy 2016 Hikmat Dhamee<br/>
-                     Email: contact@hikmatdhamee.com.np 
-                  </p>
+        </div>
+    </div>
+</div>
+<!-- //modal-skills -->
+<!-- modal-experience -->
+<div class="modal fade modal-experience" id="experience" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">My Experience</h4>
             </div>
-            <div class="col-md-2"></div>
-         </div> 
-      </div>      
-   </body>
+            <div class="modal-body modal-spa">
+                <div class="experience w3-agileits-info">
+                    <div class="experience-grids">
+                        <div class="experience-left">
+                            <h3 class="expr5_date"></h3>
+                            <h5 class="expr5_company"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="expr5_title"></h4>
+                            <p class="expr5_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids experience-grids-btm">
+                        <div class="experience-left">
+                            <h3 class="expr4_date"></h3>
+                            <h5 class="expr4_company"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="expr4_title"></h4>
+                            <p class="expr4_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids experience-grids-btm">
+                        <div class="experience-left">
+                            <h3 class="expr3_date"></h3>
+                            <h5 class="expr3_company"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="expr3_title"></h4>
+                            <p class="expr3_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids experience-grids-btm">
+                        <div class="experience-left">
+                            <h3 class="expr2_date"></h3>
+                            <h5 class="expr2_company"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="expr2_title"></h4>
+                            <p class="expr2_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids w3-agileits">
+                        <div class="experience-left">
+                            <h3 class="expr1_date"></h3>
+                            <h5 class="expr1_company"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="expr1_title"></h4>
+                            <p class="expr1_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //modal-experience -->
+<!-- modal-education -->
+<div class="modal fade modal-experience" id="education" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header w3layouts">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">My Qualification</h4>
+            </div>
+            <div class="modal-body modal-spa">
+                <div class="experience">
+                    <div class="experience-grids">
+                        <div class="experience-left">
+                            <h3 class="edu4_year"></h3>
+                            <h5 class="edu4_university"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="edu4_degree"></h4>
+                            <p class="edu4_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids">
+                        <div class="experience-left">
+                            <h3 class="edu3_year"></h3>
+                            <h5 class="edu3_university"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="edu3_degree"></h4>
+                            <p class="edu3_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids">
+                        <div class="experience-left">
+                            <h3 class="edu2_year"> </h3>
+                            <h5 class="edu2_university"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="edu2_degree"></h4>
+                            <p class="edu2_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids experience-grids-btm">
+                        <div class="experience-left">
+                            <h3 class="edu1_year"></h3>
+                            <h5 class="edu1_university"></h5>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="edu1_degree"></h4>
+                            <p class="edu1_desc"></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- //modal-certifications -->
+<!-- modal-certifications -->
+<div class="modal fade modal-experience" id="certifications" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header w3layouts">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</button>
+                <h4 class="modal-title">My Certifications</h4>
+            </div>
+            <div class="modal-body modal-spa">
+                <div class="experience">
+                    <div class="experience-grids">
+                        <div class="experience-left">
+                            <h3 class="cert4_name"></h3>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="cert4_provider"></h4>
+                            <h5 class="cert4_date"></h5>
+                            <p class="cert4_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids">
+                        <div class="experience-left">
+                            <h3 class="cert3_name"></h3>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="cert3_provider"></h4>
+                            <h5 class="cert3_date"></h5>
+                            <p class="cert3_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids">
+                        <div class="experience-left">
+                            <h3 class="cert2_name"> </h3>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="cert2_provider"></h4>
+                            <h5 class="cert2_date"></h5>
+                            <p class="cert2_desc"></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="experience-grids experience-grids-btm">
+                        <div class="experience-left">
+                            <h3 class="cert1_name"></h3>
+                        </div>
+                        <div class="experience-right">
+                            <h4 class="cert1_provider"></h4>
+                            <h5 class="cert1_date"></h5>
+                            <p class="cert1_desc"></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <p>Design by <a href="http://w3layouts.com">W3layouts</a></p>
+    </div>
+</div>
+<!-- //footer -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/bootstrap.js"></script>
+</body>
 </html>
