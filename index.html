@@ -29,7 +29,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <!-- //web-fonts -->
 
-    <!--Populate dynamic content at load time-->
     <script>
         $(document).ready(function() {
 
@@ -132,11 +131,75 @@ License URL: http://creativecommons.org/licenses/by/3.0/
              <!--Linked link-->
              $("#linkedin").attr("href","https://np.linkedin.com/in/hikmatdhamee");
 
-            });
-    </script>
+             <!--Life in words-->
+             var life_in_words = `
+              <p style="font-size:40px;color: Black;"> <b> Hey :) </b></p><br>
+             A reasonable life can be achieved by anyone. An OK life, an OK job… OK relationships…anyone can have these.<br/><br/>
+             <b>If you want a great life,</b><br/><i>
+              &nbsp You must commit to leading a great life.<br>
+              &nbsp To doing things the majority do not do.<br>
+              &nbsp Commit to thinking like the minority, not like the majority.</i><br><br/>
+            <b>Here are 7 principles to live by, for an abundant, happy, successful life:</b><br/><br/>
 
+            <b>1. One day you will be gone.</b><br/>
+             <i>&nbsp It may be in 50 years… it maybe in 50 weeks… it may be next week, or even today.<br/>
+            &nbsp I don’t know, you don’t know – no body knows. <br/>
+            &nbsp Knowing this we must live FULLY TODAY.</i><br/><br/>
+
+            <b>2. There is nothing you can not be, do or have.</b><br/>
+            <i>&nbsp Learn what needs to be done for you to live your craziest, most abundant life.</i><br/><br/>
+
+            <b>3. Nothing is worth it if it doesn’t make you happy.</b><br/>
+            <i> &nbsp If it doesn’t (A) Make you happy or (B) Make you better: Don’t make time for it.</i><br/><br/>
+
+            <b>4. Be yourself. Always. No exceptions.</b><br/>
+             <i>&nbsp It’s such a tragedy to see so many people on this planet, living lives they don’t want to live,<br/>
+            &nbsp just because they listened to other people who did the same.</i><br/><br/>
+
+            <b>5. Everything you need is already within you.</b><br/>
+            <i>&nbsp  In this world, we see endless examples of people who seemingly have it all, materially speaking, but they are EMPTY inside.<br/>
+            &nbsp And if ‘things’ don’t come… that’s fine, you don’t need them.<br/>
+            <br/>
+            &nbsp Real happiness is never found OUTSIDE of us. <br/>
+            &nbsp It is not found in possessions or wealth.<br/>
+            &nbsp Happiness is always & only found within us. It is a state of mind.
+            <br/><br/>
+            &nbsp Never forget this:
+            <br/>&nbsp Happiness is the HIGHEST level of success. Do what feels good, the rest will follow.</>
+
+            <br><br>
+            <b>6. There’s no room for toxic people, but there is never ending space for positive energy and positive people.</b><br>
+            <i>&nbsp Those who are truly aligned with you will never hold you back from living the life you want to live.<br>
+            &nbsp You can not live a great life, a happy life, if you surround yourself with toxic people.</i>
+
+            <br><br>
+            <b>7.Whatever you focus on, you will find.</b><br>
+            <i> &nbsp If you search for negativity in this world, you will find plenty of it. If you search for hate, anger, violence and sadness you will find it.<br>
+                  &nbsp But the same is true on the flip side:
+            <br>&nbsp &nbsp If your only INTENTION is to search for the good, you will find only the good.<br>
+            &nbsp &nbsp Whatever meaning you give your life, becomes your life.<br>
+            &nbsp Think the best, expect the best and always ask yourself how can this benefit my life.<br>
+            &nbsp Leave who you were.<br>
+             &nbsp Love who you are and look forward to who you will become.</i><br>
+
+             <p style="font-size:20px;color: Black; text-align: center">
+             <i>Ref: https://www.youtube.com/watch?v=EUoKyjBIoE8 </i>
+             </p>
+             <br><br>
+
+             <p style="font-size:18px;color: Black; text-align: center">
+              <b>From the other side of my brain, God exists! And always believe in God! <b><br>
+              &nbsp&nbsp&nbsp&nbsp&nbsp -o-o-
+              </p>
+              <br><br>
+             `
+
+            $("#life_in_words_container").html(life_in_words);
+        });
+    </script>
+    <!--Populate dynamic content at load time-->
 </head>
-<body>
+<div>
 <!-- top-nav -->
 <div class="top-nav">
     <div class="container">
@@ -498,6 +561,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
     </div>
+</div>
+
+<!-- life in words -->
+<div style="text-align: center; background-color: #FFFFE0;">
+<div style="display: inline-block; text-align: left;" id="life_in_words_container">
+</div>
 </div>
 
 <!-- footer -->
