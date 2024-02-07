@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <title>Hikmat's Personal Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Hikmat Dhamee, Personal Website, Software Engineer, Nepal " />
+    <meta name="keywords" content="Hadoop, Spark, Java, Elasticsearch, MapReduce, Research, Bigdata Analytics, Data Mining, Machine Learning, Data Processing, Crawling, Scrapping, Software Architect, Design, Develop, US Healthcare, HIPPA, PII, Kathmandu, Hikmat Dhamee, Personal Website, Software Engineer, Nepal " />
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="images/favicon1616.png">
@@ -20,33 +20,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="css/lightbox.css">
-    <!-- //Custom Theme files -->
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
-    <!-- //js -->
     <!-- web-fonts -->
     <link href='//fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <!-- //web-fonts -->
-
+    <!--Populate dynamic content at load time-->
     <script>
         $(document).ready(function() {
 
             <!--Introduction-->
             $(".name").html("Hikmat Dhamee");
-            $(".title").html("BigData Software Engineer (Hadoop/Spark/AWS)<br>");
-
-           <!--About Section-->
-            $(".dob").html("Late 20th Century");
-            $(".phone").html("+977-9823113881");
-            $(".my_address").html("Kathmandu, Nepal");
-            $(".email").html("contact@hikmatdhamee.com.np");
-            $(".email").attr("href","mailto:contact@hikmatdhamee.com.np");
-            $(".about_summary").html("I enjoy working on a team-oriented, software development firm nurturing new technologies and standards in the areas of big data,  cloud computing, distributed computing and programming languages where I can lead a team and deliver significant products.");
-            $(".agile-br").html("DON'T MAKE EASY THINGS EASY, MAKE DIFFICULT THINGS POSSIBLE");
+            $(".title").html("Software (Architecture, Design, Development) <br/> Domain (Big Data Analytics, Data Mining, Machine Learning)");
 
             <!--Experience Section-->
-            $(".expr5_date").html("Jan 2017 – *** ****");
+            $(".expr8_date").html("Jan 2024 – Present");
+            $(".expr8_company").html("Cedar Gate Technologies");
+            $(".expr8_title").html("Senior Solutions Architect");
+            $(".expr8_desc").html("▶ Research on scalability and performance of big data projects<br/> ▶ Recommend the optimal solution for the critical issues <br/> ▶ Locate the data processing engines' performance loopholes and provide resolution");
+
+            $(".expr7_date").html("Jan 2022 – Jan 2024");
+            $(".expr7_company").html("Cedar Gate Technologies");
+            $(".expr7_title").html("Solutions Architect");
+            $(".expr7_desc").html("▶ Research on scalability and performance of big data projects<br/> ▶ Recommend the optimal solution for the critical issues <br/> ▶ Locate the data processing engines' performance loopholes and provide resolution");
+
+            $(".expr6_date").html("Dec 2020 – Jan 2022");
+            $(".expr6_company").html("Cedar Gate Technologies");
+            $(".expr6_title").html("Principal Software Engineer");
+            $(".expr6_desc").html("▶ Debug and fix software defects<br/> ▶ Write industry-standard code <br/> ▶ Provide technical guidance in planning and executing assigned projects");
+
+            $(".expr5_date").html("Jan 2017 – Dec 2020");
             $(".expr5_company").html("Deerwalk Services Pvt. Ltd.");
             $(".expr5_title").html("Principal Software Engineer");
             $(".expr5_desc").html("▶ Design and develop high-performance, high-availability data applications using proven big data frameworks and technologies <br/> ▶ Assist in defining the team's technical strategy and migration plans to achieve strategic goals <br/> ▶ Responsible for R&D in big data technologies to meet the quality of products");
@@ -76,7 +79,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             $(".edu4_year").html("2014 - 2017");
             $(".edu4_university").html("Pokhara University (PU)");
             $(".edu4_degree").html("MSc.CS (2 years course)");
-            $(".edu4_desc").html("Masters of Science in Computer Science. <br/> Thesis ongoing...");
+            $(".edu4_desc").html("Master of Science in Computer Science. <br/>");
 
             $(".edu3_year").html("2008 - 2012");
             $(".edu3_university").html("Tribhuvan University(TU)");
@@ -93,61 +96,47 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             $(".edu1_degree").html("SLC");
             $(".edu1_desc").html("School Leaving Certificate. <br/> Passed with First Division.");
 
-            <!--Technical Skills-->
-             $(".tech_skill1").html("Advanced Java Programming <span> 90% </span>");
-             $(".tech_skill2").html("Hadoop & Spark <span> 90% </span>");
-             $(".tech_skill3").html("MapReduce & Cascading <span> 90% </span>");
-             $(".tech_skill4").html("Big Data System Design & Dev  <span> 80% </span>");
-             $(".tech_skill5").html("Web Crawler Design & Dev  <span> 75% </span>");
-             $(".tech_skill6").html("Cloud Computing  <span> 75% </span>");
+            <!--Certifications-->
+            $(".cert7_name").html("Parallel, Concurrent, and Distributed Programming in Java");
+            $(".cert7_date").html("Issued on Feb 2022");
+            $(".cert7_provider").html("Issued by Coursera");
+            $(".cert7_desc").html("<a href=\"https://www.coursera.org/account/accomplishments/specialization/certificate/SWU3AUZ7NH7E\" target=\"_blank\">See Credentials</a>");
 
-             <!--Professional Skills-->
-             $(".prof_skill1").html("Communication <span> 75% </span>");
-             $(".prof_skill2").html("Code Contribution <span> 80% </span>");
-             $(".prof_skill3").html("Leadership <span> 70% </span>");
-             $(".prof_skill4").html("Confidence <span> 80% </span>");
+            $(".cert6_name").html("Big Data Analysis with Scala and Spark");
+            $(".cert6_date").html("Issued on Sept 2020");
+            $(".cert6_provider").html("Issued by Coursera");
+            $(".cert6_desc").html("<a href=\"https://www.coursera.org/account/accomplishments/certificate/TELQK2H4MN32\" target=\"_blank\">See Credentials</a>");
 
-             <!--Certifications-->
-             $(".cert7_name").html("Parallel Programming");
-             $(".cert7_date").html("Issued on Nov 2020");
-             $(".cert7_provider").html("Issued by Coursera");
-             $(".cert7_desc").html("<a href=\"https://coursera.org/share/487a4590e2ca48f6e9b37903984f37ab\" target=\"_blank\">See Credentials</a>");
-            
-             $(".cert6_name").html("Big Data Analysis with Scala and Spark");
-             $(".cert6_date").html("Issued on Sept 2020");
-             $(".cert6_provider").html("Issued by Coursera");
-             $(".cert6_desc").html("<a href=\"https://coursera.org/share/7066a3b2a5f51cb6b1db07f85bd74816\" target=\"_blank\">See Credentials</a>");
-            
-             $(".cert5_name").html("Functional Programming Principles in Scala");
-             $(".cert5_date").html("Issued on Aug 2020");
-             $(".cert5_provider").html("Issued by Coursera");
-             $(".cert5_desc").html("<a href=\"https://coursera.org/share/ef32121a5b7d3c9e54dcf4e1ae48a0ef\" target=\"_blank\">See Credentials</a>");
-            
-             $(".cert4_name").html("Hadoop Foundations - Level 2");
-             $(".cert4_date").html("Issued on Oct 2019");
-             $(".cert4_provider").html("Issued by IBM");
-             $(".cert4_desc").html("<a href=\"https://www.youracclaim.com/badges/9da9abe3-262e-4ec6-a081-fde38214cc1a/linked_in_profile\" target=\"_blank\">See Credentials</a>");
+            $(".cert5_name").html("Functional Programming Principles in Scala");
+            $(".cert5_date").html("Issued on Aug 2020");
+            $(".cert5_provider").html("Issued by Coursera");
+            $(".cert5_desc").html("<a href=\"https://www.coursera.org/account/accomplishments/certificate/X72W6WDULR8Z\" target=\"_blank\">See Credentials</a>");
 
-             $(".cert3_name").html("Hadoop Foundations - Level 1");
-             $(".cert3_date").html("Issued on Sept 2019");
-             $(".cert3_provider").html("Issued by IBM");
-             $(".cert3_desc").html("<a href=\"https://www.youracclaim.com/badges/648be9ba-559f-4a3b-8bbf-fce950323956/linked_in_profile\" target=\"_blank\">See Credentials</a>");
+            $(".cert4_name").html("Hadoop Foundations - Level 2");
+            $(".cert4_date").html("Issued on Oct 2019");
+            $(".cert4_provider").html("Issued by IBM");
+            $(".cert4_desc").html("<a href=\"https://www.youracclaim.com/badges/9da9abe3-262e-4ec6-a081-fde38214cc1a/linked_in_profile\" target=\"_blank\">See Credentials</a>");
 
-             $(".cert2_name").html("Big Data Foundations - Level 2");
-             $(".cert2_date").html("Issued on Nov 2019");
-             $(".cert2_provider").html("Issued by IBM");
-             $(".cert2_desc").html("<a href=\"https://www.youracclaim.com/badges/f7c9b5f8-f04e-44f0-81b0-17c0d524973e/linked_in_profile\" target=\"_blank\">See Credentials</a>");
+            $(".cert3_name").html("Hadoop Foundations - Level 1");
+            $(".cert3_date").html("Issued on Sept 2019");
+            $(".cert3_provider").html("Issued by IBM");
+            $(".cert3_desc").html("<a href=\"https://www.youracclaim.com/badges/648be9ba-559f-4a3b-8bbf-fce950323956/linked_in_profile\" target=\"_blank\">See Credentials</a>");
 
-             $(".cert1_name").html("Big Data Foundations - Level 1");
-             $(".cert1_date").html("Issued on Oct 2019");
-             $(".cert1_provider").html("Issued by IBM");
-             $(".cert1_desc").html("<a href=\"https://www.youracclaim.com/badges/20f22edb-902b-4f01-8872-1e4162cabdfd/linked_in_profile\" target=\"_blank\">See Credentials</a>");
+            $(".cert2_name").html("Big Data Foundations - Level 2");
+            $(".cert2_date").html("Issued on Nov 2019");
+            $(".cert2_provider").html("Issued by IBM");
+            $(".cert2_desc").html("<a href=\"https://www.youracclaim.com/badges/f7c9b5f8-f04e-44f0-81b0-17c0d524973e/linked_in_profile\" target=\"_blank\">See Credentials</a>");
 
-             <!--Linked link-->
-             $("#linkedin").attr("href","https://www.linkedin.com/in/mehikmat");
+            $(".cert1_name").html("Big Data Foundations - Level 1");
+            $(".cert1_date").html("Issued on Oct 2019");
+            $(".cert1_provider").html("Issued by IBM");
+            $(".cert1_desc").html("<a href=\"https://www.youracclaim.com/badges/20f22edb-902b-4f01-8872-1e4162cabdfd/linked_in_profile\" target=\"_blank\">See Credentials</a>");
 
-             <!--Life in words-->
-             var life_in_words = `
+            <!--Linked link-->
+            $("#linkedin").attr("href","https://www.linkedin.com/in/mehikmat");
+
+            <!--Life in words-->
+            var life_in_words = `
               <p style="font-size:40px;color: Black;"> <b> Hey :) </b></p><br>
              A reasonable life can be achieved by anyone. An OK life, an OK job… OK relationships…anyone can have these.<br/><br/>
              <b>If you want a great life,</b><br/><i>
@@ -212,425 +201,322 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             $("#life_in_words_container").html(life_in_words);
         });
     </script>
-    <!--Populate dynamic content at load time-->
 </head>
-<div>
-<!-- top-nav -->
-<div class="top-nav">
-    <div class="container">
-        <div class="navbar-header logo">
-            <button id="bt" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                Menu
-            </button>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <div class="menu">
-                <ul class="nav navbar">
-                    <li><a href="#" data-toggle="modal" data-target="#experience" class="w3ls-hover"><span data-letters="Experience">Experience</span></a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#education" class="w3ls-hover"><span data-letters="Education">Education</span></a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#skill" class="w3ls-hover"><span data-letters="Skills">Skills</span></a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#certifications" class="w3ls-hover"><span data-letters="Certifications">Certifications</span></a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#about" class="w3ls-hover"><span data-letters="Contact">Contact</span></a></li>
-                    <li><a href="" id="linkedin" class="w3ls-hover" target="_blank"><span data-letters="LinkedIn">LinkedIn</span></a></li>
-                </ul>
-                <div class="clearfix"> </div>
+<body>
+    <!-- top-nav -->
+    <div class="top-nav">
+        <div class="container">
+            <div class="navbar-header logo">
+                <button id="bt" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    Menu
+                </button>
             </div>
-        </div>
-    </div>
-</div>
-<!-- //top-nav -->
-
-<!-- banner -->
-<div class="video" data-vide-bg="video/my_bg_pic">
-    <div class="container">
-        <div class="banner-text agileinfo-text">
-            <h1 class="name"></h1>
-            <h6 class="title"></h6>
-        </div>
-    </div>
-</div>
-<script src="js/jquery.vide.min.js"></script>
-<!-- //banner -->
-<!-- modal-about -->
-<div class="modal fade modal-about" id="about" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">CONTACT ME</h4>
-            </div>
-            <div class="modal-body modal-spa">
-                <div class="about">
-                    <div class="col-md-4 about-left ">
-                        <img src="images/my_pic.jpg" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="col-md-8 about-right wthree">
-                        <h3>Hi, I'm <span class="name"></span></h3>
-                        <h4 class="title"></h4>
-                        <ul class="address">
-                            <li>
-                                <ul class="agileits-address-text ">
-                                    <li><b>D.O.B</b></li>
-                                    <li class="dob"></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="agileits-address-text">
-                                    <li><b>PHONE </b></li>
-                                    <li class="phone"></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="agileits-address-text">
-                                    <li><b>ADDRESS </b></li>
-                                    <li class="my_address"></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="agileits-address-text">
-                                    <li><b>E-MAIL </b></li>
-                                    <li><a class="email" href=""></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="agileits-address-text">
-                                    <li><b>WEBSITE </b></li>
-                                    <li><a href="http://www.hikmatdhamee.com.np">www.hikmatdhamee.com.np</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="clearfix"> </div>
-                    <div class="about-text agileits-w3layouts">
-                        <p class="about_summary"></p>
-                        <p class="agile-br"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- //modal-about -->
-<!-- modal-skills -->
-<div class="modal fade modal-skills" id="skill" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">My Skills</h4>
-            </div>
-            <div class="modal-body modal-spa">
-                <div class="skills">
-                    <div class="col-md-6 bar-grids">
-                        <h4><span class="glyphicon glyphicon-cog"></span> Technical Skills </h4>
-                        <h6 class="tech_skill1"></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" style="width: 80%">
-                            </div>
-                        </div>
-                        <h6 class="tech_skill2"></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 70%">
-                            </div>
-                        </div>
-                        <h6 class="tech_skill3"></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
-                            </div>
-                        </div>
-                        <h6 class="tech_skill4"> </h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
-                            </div>
-                        </div>
-                        <h6 class="tech_skill5"></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
-                            </div>
-                        </div>
-                        <h6 class="tech_skill6"></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 bar-grids  w3-agile">
-                        <h4><span class="glyphicon glyphicon-briefcase"></span> Professional Skills </h4>
-                        <h6 class="prof_skill1"></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" style="width: 85%">
-                            </div>
-                        </div>
-                        <h6 class="prof_skill2"></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" style="width: 95%">
-                            </div>
-                        </div>
-                        <h6 class="prof_skill3">></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
-                            </div>
-                        </div>
-                        <h6 class="prof_skill4"></h6>
-                        <div class="progress prgs-w3agile-last">
-                            <div class="progress-bar progress-bar-striped active" style="width: 86%">
-                            </div>
-                        </div>
-                    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="menu">
+                    <ul class="nav navbar">
+                        <li><a href="#" data-toggle="modal" data-target="#experience" class="w3ls-hover"><span data-letters="Experience">Experience</span></a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#education" class="w3ls-hover"><span data-letters="Education">Education</span></a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#certifications" class="w3ls-hover"><span data-letters="Certifications">Certifications</span></a></li>
+                        <li><a href="" id="linkedin" class="w3ls-hover" target="_blank"><span data-letters="LinkedIn">LinkedIn</span></a></li>
+                    </ul>
                     <div class="clearfix"> </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- //modal-skills -->
-<!-- modal-experience -->
-<div class="modal fade modal-experience" id="experience" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">My Experience</h4>
+    <!-- //top-nav -->
+
+    <!-- banner -->
+    <div class="lb-image" data-vide-bg="images/background.png">
+        <div class="container">
+            <div class="banner-text agileinfo-text">
+                <h1 class="name"></h1>
+                <h6 class="title"></h6>
             </div>
-            <div class="modal-body modal-spa">
-                <div class="experience w3-agileits-info">
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="expr5_date"></h3>
-                            <h5 class="expr5_company"></h5>
+        </div>
+    </div>
+    <script src="js/jquery.vide.min.js"></script>
+
+    <!-- modal-experience -->
+    <div class="modal fade modal-experience" id="experience" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">My Experience</h4>
+                </div>
+                <div class="modal-body modal-spa">
+                    <div class="experience w3-agileits-info">
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="expr8_date"></h3>
+                                <h5 class="expr8_company"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="expr8_title"></h4>
+                                <p class="expr8_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="expr5_title"></h4>
-                            <p class="expr5_desc"></p>
+
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="expr7_date"></h3>
+                                <h5 class="expr7_company"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="expr7_title"></h4>
+                                <p class="expr7_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="expr4_date"></h3>
-                            <h5 class="expr4_company"></h5>
+
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="expr6_date"></h3>
+                                <h5 class="expr6_company"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="expr6_title"></h4>
+                                <p class="expr6_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="expr4_title"></h4>
-                            <p class="expr4_desc"></p>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="expr5_date"></h3>
+                                <h5 class="expr5_company"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="expr5_title"></h4>
+                                <p class="expr5_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="expr3_date"></h3>
-                            <h5 class="expr3_company"></h5>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="expr4_date"></h3>
+                                <h5 class="expr4_company"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="expr4_title"></h4>
+                                <p class="expr4_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="expr3_title"></h4>
-                            <p class="expr3_desc"></p>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="expr3_date"></h3>
+                                <h5 class="expr3_company"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="expr3_title"></h4>
+                                <p class="expr3_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="expr2_date"></h3>
-                            <h5 class="expr2_company"></h5>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="expr2_date"></h3>
+                                <h5 class="expr2_company"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="expr2_title"></h4>
+                                <p class="expr2_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="expr2_title"></h4>
-                            <p class="expr2_desc"></p>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="expr1_date"></h3>
+                                <h5 class="expr1_company"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="expr1_title"></h4>
+                                <p class="expr1_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="expr1_date"></h3>
-                            <h5 class="expr1_company"></h5>
-                        </div>
-                        <div class="experience-right">
-                            <h4 class="expr1_title"></h4>
-                            <p class="expr1_desc"></p>
-                        </div>
-                        <div class="clearfix"> </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- //modal-experience -->
-<!-- modal-education -->
-<div class="modal fade modal-experience" id="education" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header w3layouts">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">My Qualification</h4>
-            </div>
-            <div class="modal-body modal-spa ">
-                <div class="experience">
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="edu4_year"></h3>
-                            <h5 class="edu4_university"></h5>
+
+    <!-- modal-education -->
+    <div class="modal fade modal-experience" id="education" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header w3layouts">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">My Qualification</h4>
+                </div>
+                <div class="modal-body modal-spa ">
+                    <div class="experience">
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="edu4_year"></h3>
+                                <h5 class="edu4_university"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="edu4_degree"></h4>
+                                <p class="edu4_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="edu4_degree"></h4>
-                            <p class="edu4_desc"></p>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="edu3_year"></h3>
+                                <h5 class="edu3_university"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="edu3_degree"></h4>
+                                <p class="edu3_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="edu3_year"></h3>
-                            <h5 class="edu3_university"></h5>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="edu2_year"> </h3>
+                                <h5 class="edu2_university"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="edu2_degree"></h4>
+                                <p class="edu2_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="edu3_degree"></h4>
-                            <p class="edu3_desc"></p>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="edu1_year"></h3>
+                                <h5 class="edu1_university"></h5>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="edu1_degree"></h4>
+                                <p class="edu1_desc"></p>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="edu2_year"> </h3>
-                            <h5 class="edu2_university"></h5>
-                        </div>
-                        <div class="experience-right">
-                            <h4 class="edu2_degree"></h4>
-                            <p class="edu2_desc"></p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="edu1_year"></h3>
-                            <h5 class="edu1_university"></h5>
-                        </div>
-                        <div class="experience-right">
-                            <h4 class="edu1_degree"></h4>
-                            <p class="edu1_desc"></p>
-                        </div>
-                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- //modal-certifications -->
-<!-- modal-certifications -->
-<div class="modal fade modal-experience" id="certifications" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header w3layouts">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</button>
-                <h4 class="modal-title">My Certifications</h4>
-            </div>
-            <div class="modal-body modal-spa">
-                <div class="experience">
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="cert7_name"></h3>
+    <!-- modal-certifications -->
+    <div class="modal fade modal-experience" id="certifications" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header w3layouts">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"/>&times;</button>
+                    <h4 class="modal-title">My Certifications</h4>
+                </div>
+                <div class="modal-body modal-spa">
+                    <div class="experience">
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="cert7_name"></h3>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="cert7_provider"></h4>
+                                <h5 class="cert7_date"></h5>
+                                <p class="cert7_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="cert7_provider"></h4>
-                            <h5 class="cert7_date"></h5>
-                            <p class="cert7_desc"></p>
+
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="cert6_name"></h3>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="cert6_provider"></h4>
+                                <h5 class="cert6_date"></h5>
+                                <p class="cert6_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="cert6_name"></h3>
+
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="cert5_name"></h3>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="cert5_provider"></h4>
+                                <h5 class="cert5_date"></h5>
+                                <p class="cert5_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="cert6_provider"></h4>
-                            <h5 class="cert6_date"></h5>
-                            <p class="cert6_desc"></p>
+
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="cert4_name"></h3>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="cert4_provider"></h4>
+                                <h5 class="cert4_date"></h5>
+                                <p class="cert4_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="cert5_name"></h3>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="cert3_name"></h3>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="cert3_provider"></h4>
+                                <h5 class="cert3_date"></h5>
+                                <p class="cert3_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="cert5_provider"></h4>
-                            <h5 class="cert5_date"></h5>
-                            <p class="cert5_desc"></p>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="cert2_name"> </h3>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="cert2_provider"></h4>
+                                <h5 class="cert2_date"></h5>
+                                <p class="cert2_desc"></p>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="cert4_name"></h3>
+                        <div class="experience-grids experience-grids-btm">
+                            <div class="experience-left">
+                                <h3 class="cert1_name"></h3>
+                            </div>
+                            <div class="experience-right">
+                                <h4 class="cert1_provider"></h4>
+                                <h5 class="cert1_date"></h5>
+                                <p class="cert1_desc"></p>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="experience-right">
-                            <h4 class="cert4_provider"></h4>
-                            <h5 class="cert4_date"></h5>
-                            <p class="cert4_desc"></p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="cert3_name"></h3>
-                        </div>
-                        <div class="experience-right">
-                            <h4 class="cert3_provider"></h4>
-                            <h5 class="cert3_date"></h5>
-                            <p class="cert3_desc"></p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="cert2_name"> </h3>
-                        </div>
-                        <div class="experience-right">
-                            <h4 class="cert2_provider"></h4>
-                            <h5 class="cert2_date"></h5>
-                            <p class="cert2_desc"></p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="experience-grids experience-grids-btm">
-                        <div class="experience-left">
-                            <h3 class="cert1_name"></h3>
-                        </div>
-                        <div class="experience-right">
-                            <h4 class="cert1_provider"></h4>
-                            <h5 class="cert1_date"></h5>
-                            <p class="cert1_desc"></p>
-                        </div>
-                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- life in words -->
-<div style="text-align: center; background-color: #FFFFE0;">
-<div style="display: inline-block; text-align: left;" id="life_in_words_container">
-</div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <div class="container">
-        <p>Design by <a href="http://w3layouts.com">W3layouts</a></p>
+    <!-- life in words -->
+    <div style="text-align: center; background-color: #FFFFE0">
+        <div style="display: inline-block; color: black; text-align: center;" id="life_in_words_container">
+        </div>
     </div>
-</div>
-<!-- //footer -->
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/bootstrap.js"></script>
-</body>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <p>Design by <a href="http://w3layouts.com">W3layouts</a></p>
+        </div>
+    </div>
+    <!-- //footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+    </body>
 </html>

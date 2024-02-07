@@ -93,14 +93,7 @@ ul.nav.navbar li a.w3ls-icon:hover {
 	color:#000;
 }
 /*-- //top-nav --*/
-/*-- banner --*/  
-.video {
-	background:url(../images/my_bg_pic.jpg)no-repeat;
-    background-position:0px 0px;
-	text-align: left;
-	min-height: 100%;
-	background-size:cover;
-}
+/*-- banner --*/
 .banner-text {
     margin: 22em 0 10em;
     text-align: center;
@@ -120,16 +113,11 @@ ul.nav.navbar li a.w3ls-icon:hover {
     letter-spacing: 3px;
     font-weight: 900;
 }
-.video iframe{
-width: 100%;
-    min-height: 15em;
-    border: 1px solid #b3b3b3;
-}
+
 /*-- //banner --*/  
 /*-- modal-basic --*/
 .modal{
-    background: rgba(19, 198, 245, 0.84);
-	background-size:cover; 
+	background-size:cover;
 	padding: 0 !important; 
 }
 .modal-dialog {
@@ -137,7 +125,7 @@ width: 100%;
 	margin:4em auto;
 }
 .modal-content {
-    background: url(../images/bg.png) #000 repeat;
+    background: #000 repeat;
 }
 .modal-body.modal-spa {
     padding: 0  1em 3em;
